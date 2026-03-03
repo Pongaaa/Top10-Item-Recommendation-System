@@ -12,7 +12,7 @@ def load_all_data():
     # ---------------------------------------------------------
     # BƯỚC 1: LOAD THÔNG TIN SẢN PHẨM (PARQUET)
     # ---------------------------------------------------------
-    item_path = 'dataset/item/sales_pers.item_chunk_0.parquet' 
+    item_path = 'item_2024.parquet' 
     
     if os.path.exists(item_path):
         items_df = pd.read_parquet(item_path)
@@ -55,7 +55,7 @@ def load_all_data():
     # ---------------------------------------------------------
     # BƯỚC 3: LOAD PREDICTION (JSON)
     # ---------------------------------------------------------
-    pred_path = 'dataset/submission (4).json'
+    pred_path = 'dataset/submission.json'
     predictions = {}
     
     if os.path.exists(pred_path):
