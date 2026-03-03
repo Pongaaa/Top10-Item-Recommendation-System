@@ -12,7 +12,7 @@ def load_all_data():
     # ---------------------------------------------------------
     # BƯỚC 1: LOAD THÔNG TIN SẢN PHẨM (PARQUET)
     # ---------------------------------------------------------
-    item_path = 'item_2024.parquet' 
+    item_path = 'dataset/item_2024.parquet' 
     
     if os.path.exists(item_path):
         items_df = pd.read_parquet(item_path)
