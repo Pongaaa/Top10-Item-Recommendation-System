@@ -71,7 +71,7 @@ The recommendation system follows these steps:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **Pandas / NumPy**
@@ -101,7 +101,7 @@ streamlit run app.py
 
 ---
 
-## 📎 Notes
+## Notes
 
 * This project is built for **learning and demonstration purposes**
 * The dataset and model can be extended for real-world applications
